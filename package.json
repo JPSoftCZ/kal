@@ -23,6 +23,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "start": "node app.js"
+    "start": "node app.js",
+    "port": "80"
   }
 }
