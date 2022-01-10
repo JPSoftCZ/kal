@@ -1,0 +1,66 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm', {"pages" : "active", "team" : "active"})
+
+@@include('blocks/page-title.htm',{
+	"title" : "Náš tým",
+	"description" : " "
+})
+
+<!--==================================
+=            Feature Team            =
+===================================-->
+<section class="founders section pt-0">
+	<div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        @@include('blocks/founder.htm',{
+        "img-src" 	: "images/team/user.png",
+        "name"		: "Name",
+        "position"	: "Role v týmu",
+        "description" : "Popis práce"
+        })
+      </div>
+		<div class="row">
+			<div class="col-lg-6">
+				@@include('blocks/founder.htm',{
+					"img-src" 	: "images/team/user.png",
+        "name"		: "Name",
+        "position"	: "Role v týmu",
+        "description" : "Popis práce"
+        })
+			</div>
+			<div class="col-lg-6">
+				@@include('blocks/founder.htm',{
+					"img-src" 	: "images/team/user.png",
+        "name"		: "Name",
+        "position"	: "Role v týmu",
+        "description" : "Popis práce"
+        })
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Feature Team  ====-->
+
+<!--=================================
+=            Design Team            =
+==================================-->
+<section class="design-team section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<!--<h2>Angel investors</h2>
+					<p>Máte zájemm být naším investorem ? <a style="color: #FFA500" href="contact.html">Kontaktujte nás</a> </p>-->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Design Team  ====-->
+
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')
