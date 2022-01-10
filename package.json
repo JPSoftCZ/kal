@@ -23,9 +23,6 @@
   },
   "scripts": {
     "build": "gulp",
-    "start": "node app.js",
-  },
-  "engines": {
-    "node": "14.x"
+    "start": "node app.js"
   }
 }
